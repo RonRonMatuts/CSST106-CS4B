@@ -1,4 +1,7 @@
-# CSST106-CS4B: Introduction to Computer Vision 
+# CSST106-CS4B: Introduction to Computer Vision
+<h4>Prepared By: Matuto Byron</h4>
+<h4>Section: BSCS IS 4B</h4>
+<h4>Instructor: Mark Bernardino</h4>
 
 <details open>
   <summary><h2>Research and Comprehend</h2></summary>
@@ -202,6 +205,56 @@ display_comparison(known_image, unknown_image, result)
 4. ```text()```: Displays the comparison result in the third subplot.
 5. ```plt.show()```: Renders the figure with the displayed images and result.
   
+</details>
+
+<details open> 
+  <summary><h2>Summary</h2></summary> 
+  
+  <h3>Key Concepts</h3>
+
+  1. **Computer Vision** is a field of artificial intelligence that allows computers to interpret and process visual data from the world. It encompasses techniques for image analysis, object detection, and facial recognition.
+
+  2. **Image Processing** involves a range of techniques like filtering, edge detection, and segmentation to manipulate and extract useful information from digital images.
+
+  3. **Facial Recognition Systems** utilize computer vision techniques to detect, extract, and analyze facial features, converting them into unique numerical representations (embeddings) for identity verification or recognition.
+
+<h3>Facial Recognition Workflow</h3>
+
+  1. **Image Capture**: The system captures an image of a face.
+  2. **Face Detection**: The system detects the face and its boundaries within the image.
+  3. **Feature Extraction**: Key facial features (such as eyes, nose, and jawline) are extracted.
+  4. **Feature Representation**: The extracted features are transformed into a numerical faceprint.
+  5. **Comparison Matching**: The faceprint is compared against a database of known faces.
+  6. **Decision Making**: The system decides whether the face matches any stored profile.
+
+<h3>Implementation Highlights</h3>
+
+<h4>The hands-on exploration covered a facial recognition implementation using OpenCV for face detection and SSIM for image comparison:</h4>
+
+  * We used the Haar cascade classifier to detect faces from both a known and an unknown image.
+  * Once detected, the faces were resized for uniformity and compared using the Structural Similarity Index (SSIM).
+  * The similarity score determined whether the two faces matched or not.
+
+<h3>Conclusion</h3>
+
+This exercise demonstrated the practical application of computer vision techniques in facial recognition, from detecting and processing images to using machine learning models for matching. Through OpenCV and SSIM, we explored how systems can automate the process of face comparison efficiently.
+
+Throughout this project, we have gained a solid understanding of the fundamental concepts behind facial recognition systems, using OpenCV and image comparison techniques like SSIM.
+
+1. **Image Handling**: We learned how to load, manipulate, and display images efficiently. Converting images to grayscale was an essential step to enhance face detection performance.
+
+2. **Face Detection**: We explored the use of Haar Cascade classifiers for detecting faces within images. This method proved to be an effective and widely-used tool in the field of computer vision.
+
+3. **Face Extraction**: We practiced extracting specific regions of interest from an image, focusing on face regions for comparison. This showed how critical it is to isolate relevant data in a larger image for accurate analysis.
+
+4. **Resizing for Uniformity**: Ensuring both face images are of the same size before comparing them taught us the importance of image uniformity in pattern recognition tasks.
+
+5. **Face Comparison Using SSIM**: We applied the Structural Similarity Index (SSIM) to assess the similarity between two face images. SSIM offered a clear, quantifiable way to measure how structurally similar the faces are, helping us determine whether they matched.
+
+6. **Visualization**: Finally, visualizing the results allowed us to clearly interpret the outcomes, making it easier to communicate and understand the comparison results between the known and unknown faces.
+
+By working through this project, we deepened our understanding of how computer vision systems, particularly facial recognition systems, work. We now have a better grasp of the essential techniques involved in image processing and comparison, and how they can be applied to practical applications in AI.
+
 </details>
 
 <details open>
