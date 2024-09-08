@@ -3,6 +3,8 @@
 <h4>Section: BSCS IS 4B</h4>
 <h4>Instructor: Mark Bernardino</h4>
 
+https://github.com/user-attachments/assets/c65b3229-14bd-4200-8fa8-e32755d14d10
+
 <details open>
   <summary><h2>Research and Comprehend</h2></summary>
   
