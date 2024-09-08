@@ -197,6 +197,7 @@ https://github.com/user-attachments/assets/c65b3229-14bd-4200-8fa8-e32755d14d10
 # Call the function to display the images and result
 display_comparison(known_image, unknown_image, result)
   ```
+![sample output](https://github.com/user-attachments/assets/66ab5470-d757-4823-9212-267f3f2e5249)
 
 1. ```display_comparison()```: This function creates a figure with three subplots:
     * The first subplot shows the known image.
