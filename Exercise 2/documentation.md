@@ -5,3 +5,29 @@
 for implementing SIFT Detector. Once the codes are properly followed and implemented, the expected output would be provided</p>
 
 <h4>Sample Code</h4>
+
+```py
+import cv2
+import matplotlib.pyplot as plt
+
+# Load the image
+image = cv2.imread('payat.jpg')
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Initialize Sift Detector
+sift = cv2.SIFT_create()
+
+# Detect keypoint and descriptors
+keypoints, descriptors = sift.detectAndCompute(gray_image, None)
+
+# Draw keypoints on the image
+image_with_keypoints = cv2.drawKeypoints(image, keypoints, None)
+
+# Display the image with keypoints
+plt.imshow(cv2.cvtColor(image_with_keypoints, cv2.COLOR_BGR2RGB))
+plt.title('SIFT Keypoints')
+plt.show()
+```
+
+<h4>Output</h4>
+![Sift Keypoints](https://github.com/user-attachments/assets/acfa8974-1b28-47a9-8d8e-8d8f120d186f)
