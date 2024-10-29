@@ -1,0 +1,5 @@
+![Sift Keypoints](https://github.com/user-attachments/assets/acfa8974-1b28-47a9-8d8e-8d8f120d186f)
+![ORB Keypoints](https://github.com/user-attachments/assets/0224ae86-c839-467f-8d48-697cddcac149)
+![Feature Matching with Sift](https://github.com/user-attachments/assets/1d41a0e5-4a82-4bda-8192-e76c97b92537)
+![Image Alignment Using Homography](https://github.com/user-attachments/assets/9a000397-aed2-4d9c-b0ae-cdb0a04e41ba)
+![SIFT and ORB](https://github.com/user-attachments/assets/5805d979-0b3e-43e7-b4ac-ecfd13be7ec2)
