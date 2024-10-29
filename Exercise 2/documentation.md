@@ -30,4 +30,3 @@ plt.show()
 ```
 
 <h4>Output</h4>
-![Sift Keypoints](https://github.com/user-attachments/assets/acfa8974-1b28-47a9-8d8e-8d8f120d186f)
