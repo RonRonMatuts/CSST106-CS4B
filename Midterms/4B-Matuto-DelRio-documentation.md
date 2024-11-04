@@ -222,3 +222,4 @@ Description: SSD also performs object detection in a single pass. It uses a seri
       * May require more tuning for optimal performance on different datasets.
       * Use Cases: Suitable for real-time applications where a balance between speed and accuracy is needed, such as in mobile applications, drones, and robotics.
 
+<h4>Video Demonstration Link: https://drive.google.com/file/d/1jwfG6jlkik4EWl_naBciy3GSEVdrE2Mp/view?usp=sharing</h4>
